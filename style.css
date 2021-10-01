@@ -1,0 +1,249 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";  
+    src: url("./fonts/Montserrat-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "DrukWide-Bold";  
+    src: url("./fonts/Druk.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+    }
+
+header {
+    display: flex;
+    padding: 0 2.5%;
+    height: 3.5rem;
+    background-color: #1F2326;
+    overflow: hidden;
+    font-family: Montserrat-Regular;
+}
+
+.menu__logo {
+    width: auto;
+    margin-right: 20px;
+}
+
+.menu__logo:hover {
+    background-color: #FF4656;
+}
+
+.menu__logo img {
+    display: inline-block;
+    height: 1.5rem;
+    margin: 1rem;
+}
+
+.separate {
+    display: inline-block;
+    height: 1.5rem;
+    width: 2px;
+    margin: 1rem 10px;
+    background-color: white;
+}
+
+nav {
+    height: 100%;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+header ul li {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: white;
+    text-align: center;
+    height: 1rem;
+    padding: 1.25rem 1rem;
+}
+
+header ul li:hover {
+    color: #FF4656;
+}
+
+h1 {
+    font-family: DrukWide-Bold;
+}
+
+
+
+
+
+main {
+    overflow: hidden;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.background {
+    padding-top: 100px;
+    background: url(./media/background.png);
+    background-color: #FF4656;
+    background-size: auto;
+    
+}
+
+.agents {
+    display: block;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    height: 40rem;
+    width: 10000px;
+}
+
+#agents__text {
+    height: 100%;
+    padding: 0 6rem 0 0;
+    display: inline-block;
+}
+
+.agent {
+    display: inline-block;
+    height: 100%;
+    padding-right: 100px;
+    position: relative;
+}
+
+.agent__photo {
+    height: 95%;
+    margin-bottom: 5%;
+    background-color: #1F2326;
+    background: linear-gradient(135deg, transparent 5px, #1F2326 0) top left;
+}
+
+.agent__descr {
+    white-space: nowrap;
+    transform-origin: 0 0 0;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 55px;
+    top: 15px;
+}
+
+.agent__descr p {
+    font-family: DrukWide-Bold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #FF4656;
+    margin: 0;
+}
+
+.agent__descr h2 {
+    font-family: DrukWide-Bold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    color: white;
+    margin: 0;
+}
+
+.agent__skills {
+    border: 2px solid white;
+    background-color: #1F2326;
+    height: 35px;
+    width: auto;
+    padding: 20px;
+    position: absolute;
+    top: 541px;
+    left: 10px;
+}
+
+.agent__skill_logo {
+    height: 100%;
+    width: 30px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+
+
+.skills_descr {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    margin-left: 100px;
+    height: 10rem;
+    width: 10000px;
+}
+
+.block__sd {
+    position: relative;
+    display: inline-block;
+    height: 95%;
+    width: 33rem;
+    margin-right: 5rem;
+    background-color: white;
+    border: 2px solid #1F2326;
+}
+
+.text__sd {
+    display: inline-block;
+    width: 55%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-family: DrukWide-Bold;
+}
+
+.text__sd h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #C4C4C4;
+}
+
+.text__sd h2 {
+    font-size: 1rem;
+    margin: 0.4rem 0;
+}
+
+.text__sd p {
+    font-family: Montserrat-Regular;
+    font-size: 0.75rem;
+}
+
+.square__sd {
+    position: absolute;
+    background-color: #FF4656;
+    height: 7rem;
+    width: 7rem;
+    bottom: 0;
+    left: 330px;
+}
+
+.block__sd img {
+    position: absolute;
+    height: 7rem;
+    bottom: 30px;
+    left: 380px;
+}
+
+footer {
+    font-family: Montserrat-Regular;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+footer h1 {
+    font-family: Montserrat-Regular;
+}
+
+footer p {
+    font-family: Montserrat-Regular;
+}
